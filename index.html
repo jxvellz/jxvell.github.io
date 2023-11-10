@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Your Name Here</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+</head>
+    
+<!--Body-->
+<body class="Background">
+
+    <!--NavBar-->
+    <div class="Navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#GitHub">GitHub</a>
+        <a href="#Contact">Contact</a>
+    </div>
+
+<!--Breaks inserted to add space-->
+<br>
+<br>
+
+<!--Background video-->
+<div id="Home">
+    <video autoplay muted loop id="Coding_video">
+        <source src="images/video.mp4" type="video/mp4">
+    </video>
+</div>
+
+<!--Video text-->
+<div class="Video_text">
+    <h1 class="white-text">Your Name's Portfolio</h1>
+    <strong>
+        <p class="center">
+            <q>In some ways, programming is like painting. You start with a blank
+            <br>canvas and certain basic raw materials. You use a combination of
+            <br>science, art, and craft to determine what to do with them
+            <br> -Andrew Hunt</q>
+            <br> My name is Alina. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+            <br>
+            <br> Thank you for taking the time to read my work!
+            </p>
+        </strong>
+</div>
+
+<!--About section-->
+<div class="Row" id="About">
+<!--Left Column-->
+<div class="Column_2">
+    <img src="images/pictures.jpeg" alt="">
+</div>
+    <!--Right column-->
+    <div class="Column_1">
+        <h1>About</h1>
+        <p>
+           I am beginning to learn how to code and find all of my projects an interesting progress that I learn little by little on what the developer mindset is like. A lot of this catches my interest greatly and would love to continue to learn!
+            <br>
+            <br>I Am a beginning developer and would love to work with you! <a href="#Contact">Contact</a> me below!
+        </p>
+    </div>
+</div>
+
+<!--GitHub Section-->
+<div class="Row" id="Github">
+    <!--Left column-->
+    <div class="Column_1">
+        <h1>GitHub</h1>
+        <p>
+            You can view my projects on my Github profile here! :
+            <br>
+            <p class="center"><a href="https://github.com/sxvell/HTML-and-CSS-projects" target="_blank">My GitHub</a>
+        </p>
+    </div>
+    <!--Right Column-->
+    <div class="Column_2">
+        <a href="https://github.com/sxvell/HTML-and-CSS-projects" target="_blank"><img src="images/github.png" alt="GithHub Logo"></a>
+    </div>
+ </div>
+
+<!--Contact section-->
+<div class="Row" id="Contact">
+    <!--Contact Image, left column-->
+    <div class="Column_2 Column_tall">
+        <img src="images/contact.jpeg" alt="Contact_Image">
+ </div>
+<!--Contact form, right column-->
+<div class="Column_1 Column_tall">
+    <h1>Contact</h1>
+    <!--This specifies where and how to send the form date; we are leaving it blank-->
+    <form action="" method="POST"> <!--Here we are utilizing a 3rd party service to submit the contact
+    form data, insert your formspree endpoint endpoint in the action attribute-->
+    <label>Name:</label>
+        <input type="text" placeholder="Please enter your name here">
+        <label>Email:</label>
+        <input type="text" id="Email" name="Email" placeholder="Please write your message here">
+        <label>Message:</label>
+        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+        <input type="submit" value="SUBMIT">
+    </form>
+</div>
+</div>
+
+<!--Footer section-->
+<footer>
+    <p>
+        <p class="center">&copy Prosper Consulting Inc., <a href="https;//www.learncodinganywhere.com/"
+            target="_blank">The Tech Academy</a></p>
+            <br>
+    </p>
+</footer>
+</body>
+</html>
