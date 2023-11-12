@@ -163,7 +163,6 @@ footer {
     right: 0; /* This ensures there is no space between the edge of the video and the edge of the page */
     bottom: 0; /* This ensures no space between the bottom of the video and the bottom of the page */
     min-width: 100%; /* This ensures the video is displayed across the full width of the page */
-    min-height: 100%;
     z-index: -1; /* This places the video behind the other elements on the page */
 }
 
@@ -176,7 +175,7 @@ footer {
 
 /* Texts over the video */
 .Video_Text {
-    background: rgb(255, 255, 255); /* This provides a semi-transparent background for the text to sit over */
+    background: rgb(0, 0, 0.5); /* This provides a semi-transparent background for the text to sit over */
     color: white; /* Makes the font color white */
     width: 100%; /* Ensures the video-text container fills the width of the video */
     padding: 20px; /* This adds padding around the video-text container so that the background goes slightly beyond the text */
